@@ -35,6 +35,7 @@ const App = () => {
         <Grid item xs={12} sm={4} className={classes.last}>
           <Details title="Expense" />
         </Grid>
+       // commentout because speechly is not workin properly after this it will fix
         /*<PushToTalkButtonContainer>
           <PushToTalkButton />
         </PushToTalkButtonContainer> */
