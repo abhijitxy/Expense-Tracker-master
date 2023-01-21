@@ -19,6 +19,9 @@ Expense Tracker is a web-based application that allows you to easily track and m
 - To view or edit existing expenses, click on the "Expenses" tab.
 - To set a budget and track progress, click on the "Budget" tab and enter the desired amount.
 
+# Support
+
+If you have any questions or need help using the Expense Tracker web application, please contact us at. Our support team is available to assist you.
 
 
 Setup:
