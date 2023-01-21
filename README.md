@@ -10,6 +10,7 @@ Expense Tracker is a web-based application that allows you to easily track and m
 - View expenses by category or date
 - Generate reports for specific date ranges
 - Set budgets and track progress
+- Accessible from any device with internet connection
 
 Setup:
 - run ```npm i && npm start```
