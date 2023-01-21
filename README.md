@@ -12,5 +12,14 @@ Expense Tracker is a web-based application that allows you to easily track and m
 - Set budgets and track progress
 - Accessible from any device with internet connection
 
+# How to Use
+
+- Go to expensetracker.com
+- To add an expense, click on the "Add Expense" button and fill out the form with the necessary information.
+- To view or edit existing expenses, click on the "Expenses" tab.
+- To set a budget and track progress, click on the "Budget" tab and enter the desired amount.
+
+
+
 Setup:
 - run ```npm i && npm start```
