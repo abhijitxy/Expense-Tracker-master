@@ -23,6 +23,9 @@ Expense Tracker is a web-based application that allows you to easily track and m
 
 If you have any questions or need help using the Expense Tracker web application, please contact us at. Our support team is available to assist you.
 
+# Security
+
+We take security very seriously, your data is securely stored and protected with the latest encryption technology. We also regularly update our servers and software to ensure that your personal information is safe and secure.
 
 Setup:
 - run ```npm i && npm start```
