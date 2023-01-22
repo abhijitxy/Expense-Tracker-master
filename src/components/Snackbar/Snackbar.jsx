@@ -7,6 +7,7 @@ import MuiAlert from '@material-ui/lab/Alert';
 // Import custom styles for this component
 import useStyles from './styles';
 
+// CustomizedSnackbar component that takes in 'open' and 'setOpen' props
 const CustomizedSnackbar = ({ open, setOpen }) => {
   const classes = useStyles();
 
