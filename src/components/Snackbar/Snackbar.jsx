@@ -9,6 +9,7 @@ import useStyles from './styles';
 
 // CustomizedSnackbar component that takes in 'open' and 'setOpen' props
 const CustomizedSnackbar = ({ open, setOpen }) => {
+  // Use the imported custom styles
   const classes = useStyles();
 
   const handleClose = (event, reason) => {
