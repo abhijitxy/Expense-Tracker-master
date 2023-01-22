@@ -46,4 +46,5 @@ const ExpenseTracker = () => {
   );
 };
 
+// Export the ExpenseTracker component
 export default ExpenseTracker;
