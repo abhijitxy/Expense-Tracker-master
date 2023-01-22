@@ -16,6 +16,7 @@ import Form from './Form/Form';
 import List from './List/List';
 import InfoCard from '../InfoCard';
 
+// ExpenseTracker component that displays the current balance and allows for expense tracker
 const ExpenseTracker = () => {
   const classes = useStyles();
   const { balance } = useContext(ExpenseTrackerContext);
