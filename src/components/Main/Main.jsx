@@ -4,10 +4,14 @@ import React, { useState, useEffect, useContext } from 'react';
 // Import Material-UI components
 import { Card, CardHeader, CardContent, Typography, Grid, Divider } from '@material-ui/core';
 
-
+// Import Speechly hooks
 import { useSpeechContext } from '@speechly/react-client';
+
+// Import custom context and styles
 import { ExpenseTrackerContext } from '../../context/context';
 import useStyles from './styles';
+
+// Import child components
 import Form from './Form/Form';
 import List from './List/List';
 import InfoCard from '../InfoCard';
