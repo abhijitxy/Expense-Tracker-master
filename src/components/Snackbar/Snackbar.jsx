@@ -18,10 +18,10 @@ const CustomizedSnackbar = ({ open, setOpen }) => {
     if (reason === 'clickaway') {
       return;
     }
-
+// Otherwise, set the 'open' prop to false to close the Snackbar
     setOpen(false);
   };
-
+// Render the Snackbar component with custom success message and handleClose function
   return (
     <div className={classes.root}>
       <Snackbar 
@@ -32,5 +32,5 @@ const CustomizedSnackbar = ({ open, setOpen }) => {
     </div>
   );
 };
-
+// Export the CustomizedSnackbar component
 export default CustomizedSnackbar;
