@@ -18,7 +18,9 @@ import InfoCard from '../InfoCard';
 
 // ExpenseTracker component that displays the current balance and allows for expense tracker
 const ExpenseTracker = () => {
+// Use the imported custom styles
   const classes = useStyles();
+// Use the custom context to access the balance state  
   const { balance } = useContext(ExpenseTrackerContext);
 
   return (
