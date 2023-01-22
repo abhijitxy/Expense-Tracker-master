@@ -23,6 +23,7 @@ const ExpenseTracker = () => {
 // Use the custom context to access the balance state  
   const { balance } = useContext(ExpenseTrackerContext);
 
+  // Render the component with a Card component containing a header, content, and child components
   return (
     <Card className={classes.root}>
       <CardHeader title="Expense Tracker" subheader="Powered by Speechly" />
