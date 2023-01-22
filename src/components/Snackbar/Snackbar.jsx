@@ -14,6 +14,7 @@ const CustomizedSnackbar = ({ open, setOpen }) => {
   
 // Function to handle closing of the Snackbar
   const handleClose = (event, reason) => {
+    // If the close event is triggered by a "clickaway" action, do nothing
     if (reason === 'clickaway') {
       return;
     }
