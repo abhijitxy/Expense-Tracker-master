@@ -1,8 +1,10 @@
 // Import React library
 import React from 'react';
+// Import Snackbar and MuiAlert components from Material-UI library
 import Snackbar from '@material-ui/core/Snackbar';
 import MuiAlert from '@material-ui/lab/Alert';
 
+// Import custom styles for this component
 import useStyles from './styles';
 
 const CustomizedSnackbar = ({ open, setOpen }) => {
