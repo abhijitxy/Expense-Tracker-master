@@ -1,3 +1,4 @@
+// Import React and necessary hooks
 import React, { useState, useEffect, useContext } from 'react';
 import { Card, CardHeader, CardContent, Typography, Grid, Divider } from '@material-ui/core';
 import { useSpeechContext } from '@speechly/react-client';
